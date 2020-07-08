@@ -2,7 +2,7 @@ import React from 'react';
 // Import the storybook libraries
 import { storiesOf } from '@storybook/react';
 // Import our component from this folder
-import { Label } from './Label';
+import Label from './Label';
 
 // Here we describe the stories we want to see of the Button. The component is
 // pretty simple so we will just make two, one with text and one with emojis
@@ -13,7 +13,9 @@ import { Label } from './Label';
 storiesOf('Label')
 	.add('base', () => (
 		<Label>
-			تست label برای تست ویژگی rtl
+			<div>
+				hello
+			</div>
 		</Label>
 	))
 	.add('with disabled', () => (

@@ -1,6 +1,6 @@
 {
   "name": "@ReactSeam/label",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "description": "Label Component description",
   "license": "ISC",
   "main": "dist/label.js",
